@@ -11,7 +11,7 @@ def sum_of_digits(n):
 count = 0
 
 amount = input("how many cards do you want to generate?")
-n= input("Enter your credit card number: ")
+n= input("Enter your starting credit card number: ")
 while count< int(amount):
     try:
         list_num= list(n)
