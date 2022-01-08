@@ -42,6 +42,7 @@ while count< int(amount):
     except ValueError:
         print("\nError!! Invalid input. Please enter correct value.")
         print("\nPlease enter a 16-digit number only.")
+        n= input("Enter a different credit card number: ")
     n = int(n)+1
     n = str(n)
         
