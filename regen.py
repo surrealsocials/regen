@@ -45,4 +45,6 @@ while count< int(amount):
         n= input("Enter a different credit card number: ")
     n = int(n)+1
     n = str(n)
+    
+print("To check your card numbers copy and paste list to https://www.dcode.fr/luhn-algorithm")        
         
