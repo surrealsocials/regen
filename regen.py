@@ -1,4 +1,11 @@
 # Regen for cc
+def print_ascii(fn):
+    f= open(fn,'r')
+    print(''.join([line for line in f]))
+
+print_ascii('bat.txt')
+print ("")
+
 
 def sum_of_digits(n):
     sum=0
@@ -10,8 +17,10 @@ def sum_of_digits(n):
 
 count = 0
 
-amount = input("how many cards do you want to generate?")
+amount = input("how many cards do you want to generate? ")
+print ("")
 n= input("Enter your starting credit card number: ")
+print ("")
 while count< int(amount):
     try:
         list_num= list(n)
@@ -42,9 +51,13 @@ while count< int(amount):
     except ValueError:
         print("\nError!! Invalid input. Please enter correct value.")
         print("\nPlease enter a 16-digit number only.")
-        n= input("Enter a different credit card number: ")
+        n= input("Try another credit card number: ")
     n = int(n)+1
+        
+
     n = str(n)
-    
+print ("")
+print ("Cheers Cunt!")
+input ('')
 print("To check your card numbers copy and paste list to https://www.dcode.fr/luhn-algorithm")        
         
