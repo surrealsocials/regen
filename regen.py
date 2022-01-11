@@ -59,5 +59,8 @@ while count< int(amount):
 print ("")
 print ("Cheers Cunt!")
 input ('')
-print("To check your card numbers copy and paste list to https://www.dcode.fr/luhn-algorithm")        
+print("To check your card numbers copy and paste list to https://www.dcode.fr/luhn-algorithm")  
+print ("")
+print ("")
+
         
