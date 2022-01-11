@@ -3,7 +3,7 @@ def print_ascii(fn):
     f= open(fn,'r')
     print(''.join([line for line in f]))
 
-print_ascii('bat.txt')
+print_ascii('ascii.txt')
 print ("")
 
 
